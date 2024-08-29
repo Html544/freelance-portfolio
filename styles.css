@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="hero">
+            <h1>Hi, I'm [Eman Riaz]</h1>
+            <p>A Freelance [Your Profession] Based in [Your Location]</p>
+            <a href="#contact" class="cta-button">Hire Me</a>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Explore my work and find out how I can help bring your ideas to life.</p>
+            <a href="#portfolio" class="cta-button">See My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I am a passionate [Your Profession] with over [1] years of experience. I specialize in [Your Specializations].</p>
+            <img src="/nnn/images (6).jpeg" alt="About Me">
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="/nnn/609825631_Template-Featured-image.jpg" alt="Project 1">
+                <div class="portfolio-overlay">
+                    <h3>Project One</h3>
+                    <p>Description of Project One.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="/nnn/flat-design-colored-portfolio-template_23-2149215470.jpg" alt="Project 2">
+                <div class="portfolio-overlay">
+                    <h3>Project Two</h3>
+                    <p>Description of Project Two.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="/nnn/gradient-interview-portfolio-template_23-2149220443.jpg" alt="Project 3">
+                <div class="portfolio-overlay">
+                    <h3>Project Three</h3>
+                    <p>Description of Project Three.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>My Services</h2>
+        <div class="services-grid">
+            <div class="service">
+                <h3>Service One</h3>
+                <p>Details about Service One.</p>
+            </div>
+            <div class="service">
+                <h3>Service Two</h3>
+                <p>Details about Service Two.</p>
+            </div>
+            <div class="service">
+                <h3>Service Three</h3>
+                <p>Details about Service Three.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 [Eman Riaz]. All Rights Reserved.</p>
+        <div class="social-media">
+            <a href="#" class="social-icon">FB</a>
+            <a href="#" class="social-icon">TW</a>
+            <a href="#" class="social-icon">LI</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
